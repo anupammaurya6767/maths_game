@@ -1,0 +1,175 @@
+html{
+    height: 100%;
+     background: radial-gradient(circle, #fff, #ded0b5 );
+     background: -webkit-radial-gradient(circle, #fff, #ded0b5  );
+     background: -o-radial-gradient(circle, #fff, #ded0b5  );
+     background: -moz-radial-gradient(circle, #fff, #ded0b5  );
+}
+
+#container{
+    width: 600px;
+    height: 430px;
+    background-color: #9DD2EA;
+    margin: 150px auto;
+    border-radius: 15px;
+    box-shadow: 0px 4px 0px 0px #009de4;
+    -webkit-box-shadow: 0px 4px 0px 0px #009de4;
+    -o-box-shadow: 0px 4px 0px 0px #009de4;
+    -moz-box-shadow: 0px 4px 0px 0px #009de4;
+    position: relative;
+    padding: 19px;
+}
+
+#score{
+    position: absolute;
+    background-color: #F1FF92;
+    padding: 10px;
+    left: 540px;
+    box-shadow: 0px 4px 0px 0px #9da853;
+    -webkit-box-shadow: 0px 4px 0px 0px #9da853;
+    -o-box-shadow: 0px 4px 0px 0px #9da853;
+    -moz-box-shadow: 0px 4px 0px 0px #9da853;
+    left: 
+}
+
+#correct{
+    position: absolute;
+    padding: 10px;
+    background-color: #42e252;
+    color: white;
+    left: 270px;
+    display: none;
+}
+
+#wrong{
+    position: absolute;
+    padding: 10px;
+    background-color: #de401a;
+    color: white;
+    left: 265px;
+    display: none;
+}
+
+#question{
+    background-color: #9DA0EA;
+    width: 480px;
+    height: 170px;
+    margin: 50px auto 10px auto;
+    box-shadow: 0px 4px 0px 0px #535aa8;
+    -webkit-box-shadow: 0px 4px 0px 0px #535aa8;
+    -o-box-shadow: 0px 4px 0px 0px #535aa8;
+    -moz-box-shadow: 0px 4px 0px 0px #535aa8;
+    font-size: 6em;
+    font-family: cursive , sans-serif;
+    text-align: center;
+    line-height: 150px;
+    color: black;
+}
+
+#instruction{
+    width: 480px;
+    height: 50px;
+    text-align: center;
+    line-height: 45px;
+    margin: 0px auto 10px auto;
+    background-color: #B481D9;
+    box-shadow: 0px 4px 0px 0px #8153a8;
+    -webkit-box-shadow: 0px 4px 0px 0px #8153a8;
+    -o-box-shadow: 0px 4px 0px 0px #8153a8;
+    -moz-box-shadow: 0px 4px 0px 0px #8153a8;
+
+}
+
+#choices{
+    width: 475px;
+    height: 120px;
+    margin: 0px auto;
+}
+
+.box{
+    background-color: white;
+    border-radius: 3px;
+    height: 85px;
+    float: left;
+    width: 85px;
+    margin-right: 45px;
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.2);
+    font-size: 2rem;
+    text-align: center;
+    line-height: 80px;
+    cursor: pointer;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+}
+
+#box4{
+    margin-right: 0px;
+}
+
+#startreset{
+    width: 78px;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.5);
+    margin: 0 auto;
+    margin-top: -10px;
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    position: relative;
+     transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    
+    -ms-transition: all 0.2s;
+}
+
+.box:active, #startreset:active{
+    background-color: #9C89F6;
+    color: white;
+     box-shadow: 0px 0px #6b54d3;
+    -moz-box-shadow: 0px 0px #6b54d3;
+    -webkit-box-shadow: 0px 0px #6b54d3;
+    top: 6px;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+#timeremaining{
+    background-color: rgba(181, 235, 36, 0.8);
+    position: absolute;
+    padding: 10px;
+    left: 440px;
+    top: 420px;
+    width: 152px;
+    border-radius: 3px;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+#gameover{
+    width: 530px;
+    height: 280px;
+    position: absolute;
+     background: linear-gradient(#F3CA6B, #F3706C);
+    background: -webkit-linear-gradient(#F3CA6B, #F3706C);
+    background: -o-linear-gradient(#F3CA6B, #F3706C);
+    background: -moz-linear-gradient(#F3CA6B, #F3706C);
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    top: 100px;
+    left: 60px;
+    z-index: 2;
+    display: none;
+}
+
