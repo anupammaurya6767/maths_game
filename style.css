@@ -173,3 +173,8 @@ html{
     display: none;
 }
 
+@media all and(max-width:800px){
+    #startreset{
+        padding:5px;
+    }
+}
